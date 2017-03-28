@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  co-core-template:
+    image: co-core-template
+    build:
+      context: 
+      dockerfile: Dockerfile
